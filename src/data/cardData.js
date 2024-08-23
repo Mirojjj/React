@@ -17,4 +17,10 @@ export default [
     description:
       "A simple calcultor app which is created with redux for computing the calculation and passing data. Makes us clear about the Concept of redux.",
   },
+  {
+    title: "Weather Forecast App",
+    link: "/weather",
+    description:
+      "A simple calcultor app which is created with redux for computing the calculation and passing data. Makes us clear about the Concept of redux.",
+  },
 ];

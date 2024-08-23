@@ -12,6 +12,7 @@ import Game from "./pages/Game.jsx";
 import { store } from "./app/store.js";
 import { Provider } from "react-redux";
 import Redux from "./pages/Redux.jsx";
+import Weather from "./pages/Weather.jsx";
 
 const router = Router([
   {
@@ -29,6 +30,10 @@ const router = Router([
   {
     path: "/redux",
     element: <Redux />,
+  },
+  {
+    path: "/weather",
+    element: <Weather />,
   },
 ]);
 

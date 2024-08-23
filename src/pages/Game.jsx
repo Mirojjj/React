@@ -78,7 +78,7 @@ const Game = () => {
   }, [playAgain]);
 
   return (
-    <div>
+    <div className=" mx-auto w-[90%] mt-9">
       <h1>The Classical Scissor Paper Rock Game</h1>
       {winner && (
         <div className="mt-4">

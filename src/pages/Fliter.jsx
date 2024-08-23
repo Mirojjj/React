@@ -82,7 +82,7 @@ const Fliter = () => {
   }, [typeFilter, typeGenre]);
 
   return (
-    <>
+    <div className="mx-auto w-[90%] mt-5">
       <div>
         <input
           className=" bg-gray-50 border border-gray-800"
@@ -162,7 +162,7 @@ const Fliter = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

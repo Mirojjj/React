@@ -13,6 +13,7 @@ import { store } from "./app/store.js";
 import { Provider } from "react-redux";
 import Redux from "./pages/Redux.jsx";
 import Weather from "./pages/Weather.jsx";
+import OptimisticUpdates from "./pages/OptimisticUpdates.jsx";
 
 const router = Router([
   {
@@ -34,6 +35,10 @@ const router = Router([
   {
     path: "/weather",
     element: <Weather />,
+  },
+  {
+    path: "/opt",
+    element: <OptimisticUpdates />,
   },
 ]);
 

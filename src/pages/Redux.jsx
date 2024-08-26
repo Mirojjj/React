@@ -1,8 +1,12 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import OperationBtn from "../components/operationBtn";
-import DigitBtn from "../components/DigitBtn";
-import { backSpace, clear, showResult } from "../features/counter/counterSlice";
+import OperationBtn from "../components/operationBtn.jsx";
+import DigitBtn from "../components/DigitBtn.jsx";
+import {
+  backSpace,
+  clear,
+  showResult,
+} from "../features/counter/counterSlice.js";
 
 const Redux = () => {
   const curr = useSelector((state) => state.counter.curr);

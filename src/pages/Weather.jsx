@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import {
   useGetAstronomyQuery,
   useGetWeatherForecastQuery,
-} from "../service/weatherApi";
-import { getWeatherEmoji } from "../utils/helpers";
+} from "../service/weatherApi.js";
+import { getWeatherEmoji } from "../utils/helpers.js";
 
 const Weather = () => {
   const days = 3;

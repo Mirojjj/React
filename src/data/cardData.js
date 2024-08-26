@@ -23,4 +23,10 @@ export default [
     description:
       "A simple calcultor app which is created with redux for computing the calculation and passing data. Makes us clear about the Concept of redux.",
   },
+  {
+    title: "Optmistic Updates",
+    link: "/opt",
+    description:
+      "A simple calcultor app which is created with redux for computing the calculation and passing data. Makes us clear about the Concept of redux.",
+  },
 ];

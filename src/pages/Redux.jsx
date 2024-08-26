@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import OperationBtn from "../components/operationBtn.jsx";
+import OperationBtn from "../components/OperationBtn.jsx";
 import DigitBtn from "../components/DigitBtn.jsx";
 import {
   backSpace,

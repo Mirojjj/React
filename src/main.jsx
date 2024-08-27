@@ -6,20 +6,23 @@ import {
   RouterProvider,
   createBrowserRouter as Router,
 } from "react-router-dom";
-// import Fliter from "./pages/Fliter.jsx";
-const Fliter = lazy(() => import("./pages/Fliter.jsx"));
-// import Game from "./pages/Game.jsx";
-const Game = lazy(() => import("./pages/Game.jsx"));
+import Fliter from "./pages/Fliter.jsx";
+import OptimisticUpdates from "./pages/OptimisticUpdates.jsx";
+import Game from "./pages/Game.jsx";
+import Redux from "./pages/Redux.jsx";
+import Weather from "./pages/Weather.jsx";
+
+// const Fliter = lazy(() => import("./pages/Fliter.jsx"));
+
+// const Game = lazy(() => import("./pages/Game.jsx"));
+// const Redux = lazy(() => import("./pages/Redux.jsx"));
+
+// const Weather = lazy(() => import("./pages/Weather.jsx"));
+
+// const OptimisticUpdates = lazy(() => import("./pages/OptimisticUpdates.jsx"));
 
 import { store } from "./app/store.js";
 import { Provider } from "react-redux";
-// import Redux from "./pages/Redux.jsx";
-const Redux = lazy(() => import("./pages/Redux.jsx"));
-// import Weather from "./pages/Weather.jsx";
-const Weather = lazy(() => import("./pages/Weather.jsx"));
-
-// import OptimisticUpdates from "./pages/OptimisticUpdates.jsx";
-const OptimisticUpdates = lazy(() => import("./pages/OptimisticUpdates.jsx"));
 
 const router = Router([
   {

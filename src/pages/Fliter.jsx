@@ -46,6 +46,8 @@ const Fliter = () => {
     );
   }, [query, data]);
 
+  // ras
+
   // const handleFruitSearch = (e) => {
   //   let value = e.target.value.toLowerCase().trim();
   //   setQuery(value);
